@@ -1,4 +1,16 @@
 {
+  "name": "mock-social-network-api",
+  "description": "mock backend for a social network app using MongoDB in an Express.js using Node.js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "seed": "node utils/seed.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
     "express": "^4.18.2",
     "mongoose": "^8.0.0"
