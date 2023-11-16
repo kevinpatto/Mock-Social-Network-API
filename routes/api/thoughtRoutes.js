@@ -16,12 +16,12 @@ router.route('/')
 	.get(getThoughts)
 	.post(createThought);
 
-router.route('/:userId')
+router.route('/:thoughtId')
 	.get(getSingleThought)
 	.put(updateThought)
 	.delete(deleteThought);
 
-router.route('/:userId/friends/:friendId')
+router.route('/:thoughtId/reactions/')
 	.post(addReaction)
 	.delete(deleteReaction);
 
